@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: black;
+  color: #fff;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction : column;
+  width: 100%;
+  min-height: 100vh;
+}
+nav {
+  background-color: #fff;
+  color: #222;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+nav button {
+  border: none;
+  outline: none;
+  padding: 10px 8px;
+  color: #fff;
+  cursor: pointer;
+  background:yellowgreen;
+}
+.header {
+  background-color: rgb(13, 147, 244);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction : column;
+  }
+.square {
+  width: 190px;
+  height: 190px;
+  background-color: red;
+  margin: 10px;
+  border-radius : 10% 20%;
+}
+.squares {
+  display: grid;  
+  grid-template-columns : repeat(3, 200px);
+  gap: 10px;  
+}
+.fade {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+
+
+
